@@ -580,27 +580,32 @@
                     </div>
 
                     <div class="conteudo-s10">
-                        <h2>Prepare-se para ir além com o próximo Galaxy</h2>
+                        <h4>Prepare-se para ir além com o próximo Galaxy</h4>
                         <p>Faça seu cadastro para saber tudo sobre o lançamento no Brasil em primeira mão</p>
                         <div class="aviso-campos"><p>Todos os campos marcados com (*) são obrigatórios</p></div>
-                        <form action="#" method="post" id="form" class="form">
+                        <form action="#" method="post" id="form" class="form" name="dados" onsubmit="return enviarDados();">
 
                             <div class="row">
-                                <div class="input-fiels">
+                                <div class="input-fiels col s6">
                                 <labe for="nome">Nome*</label>
                                     <input type="text" name="nome" class="form-nome" />
+                                    <p name="errorNome" class="error"></p>
                                 </div>
-                                <div class="input-fiels">
+                                <div class="input-fiels col s6">
                                     <label for="sobrenome">Sobrenome*</label>
                                     <input type="text" name="sobrenome" class="form-sobrenome" />
+                                    <p name="errorSobreNome" class="error"></p>
                                 </div>
                             </div>
                                 <p>
                                     <label for="email">E-mail*</label>
-                                    <input type="text" name="email" class="email" /></p>
+                                    <input type="text" name="email" class="email" />
+                                <p name="errorEmail" class="error"></p>
+                            </p>
                                     <p>
                                         <label for="telefone">Telefone*</label>
                                         <input type="text" name="telefone" class="telefone" />
+                                        <p name="errorTelefone" class="error"></p>
                                     </p>
                                     <div class="checks">
                                         <p>
@@ -819,5 +824,6 @@
         }
         //performance.timing 확인용 20180518   끝
     </script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
