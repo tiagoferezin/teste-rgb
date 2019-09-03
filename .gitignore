@@ -1,2 +1,7 @@
 .sass-cache/
 *.css.map
+_resources
+node_modules
+gulpfile.js
+package-lock.json
+assets/sass

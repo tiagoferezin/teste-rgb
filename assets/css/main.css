@@ -1,0 +1,32 @@
+.input-nome {
+  font-family: "SamsungOne", arial; }
+
+.form {
+  font-family: "SamsungOne", arial;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.checks {
+  width: 50%; }
+
+.recaptcha {
+  margin-left: auto; }
+
+input {
+  margin: .4rem; }
+
+.form-nome, .form-sobrenome {
+  width: 50%; }
+
+.email, .telefone, .form-group {
+  width: 90%; }
+
+.conteudo-s10 {
+  font-family: "SamsungOne", arial;
+  max-width: 100%;
+  text-align: center; }
+
+.aviso-campos {
+  color: blue; }
