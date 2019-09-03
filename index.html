@@ -76,6 +76,28 @@
         gtag('config', 'AW-000000111');
     </script>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '0000000000000111');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=0000000000000111&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+
 
 </head>
 <body>
@@ -481,7 +503,7 @@
 
                 <!-- S_CODE_MICROSITE -->
                 <script type="text/javascript" src="https://www.samsung.com.br/header-footer/js/s_code_microsite.js"></script>
-                
+
                 <script type="text/javascript" src="assets/js/s_code_microsite_iframe.js"></script>
 
                 <input type="hidden" id="microsite" name="microsite" value="microsite" />
@@ -491,13 +513,13 @@
         http://www.omniture.com -->
 
         <script language="JavaScript" type="text/javascript">		
-         <!--
+           <!--
             /* You may give each page an identifying name, 
             server, and channel on the next lines. */
             var defDivision = "DIVISION";
             var defCampaignName = "CAMPAIGN_NAME";		
             var defPageName = "PAGENAME";
-            
+
             var defEvar33 = 'br:campaign:' + defDivision + ':' + defCampaignName;
 
             s.pageName = "br:campaign:SEDA:" + defCampaignName + ":" + defPageName;
@@ -515,26 +537,26 @@
             var s_code = s.t(); if (s_code) document.write(s_code)//--></script>
 
             <script language="JavaScript" type="text/javascript">
-             <!--
+               <!--
                 if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-')
                     //--></script><noscript>
                         <a href="http://www.omniture.com" title="Web Analytics">
-                           <img src="http://nmetrics.samsung.com/b/ss/sssamsung4br/1/H.25.5--NS/0"
-                           height="1" width="1" border="0" alt="omniture" />
-                       </a>
-                   </noscript><!--/DO NOT REMOVE/-->
-                   <!-- End SiteCatalyst code version: H.25.5. -->
-                   <script type="text/javascript" src="https://www.samsung.com.br/header-footer/js/scn.js"></script>
-                   <!--End of Omniture-->
-                   <!-- CONTEÚDO -->
-                   <div id="content" class="st-home" role="main">
+                         <img src="http://nmetrics.samsung.com/b/ss/sssamsung4br/1/H.25.5--NS/0"
+                         height="1" width="1" border="0" alt="omniture" />
+                     </a>
+                 </noscript><!--/DO NOT REMOVE/-->
+                 <!-- End SiteCatalyst code version: H.25.5. -->
+                 <script type="text/javascript" src="https://www.samsung.com.br/header-footer/js/scn.js"></script>
+                 <!--End of Omniture-->
+                 <!-- CONTEÚDO -->
+                 <div id="content" class="st-home" role="main">
 
                     <div class="conteudo-s10">
                         <h1>Prepare-se para ir além com o próximo Galaxy</h1>
                         <p>Faça seu cadastro para saber tudo sobre o lançamento no Brasil em primeira mão</p>
                         <div class="aviso-campos"><p>Todos os campos marcados com (*) são obrigatórios</p></div>
                         <form action="#" method="post" id="form" class="form">
-                         
+
                             <div class="form-group">
                                 <labe for="nome">Nome*</label>
                                     <input type="text" name="nome" class="form-nome" />
@@ -696,7 +718,7 @@
         </div>
         <!--googleon: all-->
     </div>
-    
+
     <script type="text/javascript">console.log("TESTING...");</script>
 
     <script type="text/javascript" src="https://www.samsung.com.br/header-footer/js/page.js"></script>
