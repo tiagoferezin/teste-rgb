@@ -17,6 +17,15 @@
 input {
   margin: .4rem; }
 
+.top-form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.st-home {
+  background-color: black;
+  padding-bottom: 25px; }
+
 .form-nome, .form-sobrenome {
   width: 50%; }
 
@@ -26,7 +35,8 @@ input {
 .conteudo-s10 {
   font-family: "SamsungOne", arial;
   max-width: 100%;
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 .aviso-campos {
   color: blue; }

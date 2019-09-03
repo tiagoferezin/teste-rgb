@@ -66,6 +66,7 @@
     <!-- VISITOR API -->
     <script type="text/javascript" src="https://www.samsung.com.br/header-footer/js/VisitorAPI.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/materialize.css" />
 
     <!-- Global site tag (gtag.js) - Google Ads: 000000111 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-000000111"></script>
@@ -536,11 +537,11 @@
         http://www.omniture.com -->
 
         <script language="JavaScript" type="text/javascript">		
-         <!--
+           <!--
             /* You may give each page an identifying name, 
             server, and channel on the next lines. */
-            var defDivision = "DIVISION";
-            var defCampaignName = "CAMPAIGN_NAME";		
+            var defDivision = "SEDA";
+            var defCampaignName = "TesteSamsung";		
             var defPageName = "PAGENAME";
 
             var defEvar33 = 'br:campaign:' + defDivision + ':' + defCampaignName;
@@ -560,32 +561,40 @@
             var s_code = s.t(); if (s_code) document.write(s_code)//--></script>
 
             <script language="JavaScript" type="text/javascript">
-             <!--
+               <!--
                 if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-')
                     //--></script><noscript>
                         <a href="http://www.omniture.com" title="Web Analytics">
-                           <img src="http://nmetrics.samsung.com/b/ss/sssamsung4br/1/H.25.5--NS/0"
-                           height="1" width="1" border="0" alt="omniture" />
-                       </a>
-                   </noscript><!--/DO NOT REMOVE/-->
-                   <!-- End SiteCatalyst code version: H.25.5. -->
-                   <script type="text/javascript" src="https://www.samsung.com.br/header-footer/js/scn.js"></script>
-                   <!--End of Omniture-->
-                   <!-- CONTEÚDO -->
-                   <div id="content" class="st-home" role="main">
+                         <img src="http://nmetrics.samsung.com/b/ss/sssamsung4br/1/H.25.5--NS/0"
+                         height="1" width="1" border="0" alt="omniture" />
+                     </a>
+                 </noscript><!--/DO NOT REMOVE/-->
+                 <!-- End SiteCatalyst code version: H.25.5. -->
+                 <script type="text/javascript" src="https://www.samsung.com.br/header-footer/js/scn.js"></script>
+                 <!--End of Omniture-->
+                 <!-- CONTEÚDO -->
+                 <div id="content" class="st-home" role="main">
+
+                    <div class="top-form">
+                        <img src="assets/img/topo.png" width="100%">
+                    </div>
 
                     <div class="conteudo-s10">
-                        <h1>Prepare-se para ir além com o próximo Galaxy</h1>
+                        <h2>Prepare-se para ir além com o próximo Galaxy</h2>
                         <p>Faça seu cadastro para saber tudo sobre o lançamento no Brasil em primeira mão</p>
                         <div class="aviso-campos"><p>Todos os campos marcados com (*) são obrigatórios</p></div>
                         <form action="#" method="post" id="form" class="form">
 
-                            <div class="form-group">
+                            <div class="row">
+                                <div class="input-fiels">
                                 <labe for="nome">Nome*</label>
                                     <input type="text" name="nome" class="form-nome" />
+                                </div>
+                                <div class="input-fiels">
                                     <label for="sobrenome">Sobrenome*</label>
                                     <input type="text" name="sobrenome" class="form-sobrenome" />
                                 </div>
+                            </div>
                                 <p>
                                     <label for="email">E-mail*</label>
                                     <input type="text" name="email" class="email" /></p>
@@ -595,12 +604,15 @@
                                     </p>
                                     <div class="checks">
                                         <p>
-                                            <input type="checkbox" name="privacy" id="privacy" onclick="click_s_code('button', 'accepty-policy');" /><label for="privacy">Eu aceito as Políticas de Privacidade da Samsung *</label></p>
+                                            <label for="privacy"><input type="checkbox" name="privacy" id="privacy" onclick="click_s_code('button', 'accepty-policy');" />Eu aceito as Políticas de Privacidade da Samsung *</label></p>
                                             <p>
-                                                <input type="checkbox" name="news" id="news" onclick="click_s_code('button', 'accept-news');" /><label for="news">Gostaria de receber outras novidades da Samsung</label>
+                                                <label for="news"><input type="checkbox" name="news" id="news" onclick="click_s_code('button', 'accept-news');" />Gostaria de receber outras novidades da Samsung</label>
                                             </p>
                                         </div>
-                                        <div class="recaptcha"></div>
+                                        <div class="recaptcha">
+
+                                            <!-- Inserir o Captcha aqui -->
+                                        </div>
 
                                         <p><input type="button" name="enviar" value="Enviar" onclick="click_s_code('button', 'send-form');"></p>
                                     </form>
